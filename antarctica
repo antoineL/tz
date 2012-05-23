@@ -169,7 +169,6 @@ Zone Antarctica/Mawson	0	-	zzz	1954 Feb 13
 # French Southern Territories with year-round inhabitants
 #
 # Martin-de-Vivies Base, Amsterdam Island, -374105+0773155, since 1950
-# Alfred-Faure Base, Crozet Islands, -462551+0515152, since 1964
 # Port-aux-Francais, Kerguelen Islands, -492110+0701303, since 1951;
 #	whaling & sealing station operated 1908/1914, 1920/1929, and 1951/1956
 #
@@ -179,6 +178,13 @@ Zone Antarctica/Mawson	0	-	zzz	1954 Feb 13
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
 Zone Indian/Kerguelen	0	-	zzz	1950	# Port-aux-Francais
 			5:00	-	TFT	# ISO code TF Time
+
+# Alfred-Faure Base, Crozet Islands, -462551+0515125, since 1964
+#	sealing & whaling stations operated variously 1802/1911+
+# Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
+Zone Indian/Alfred-Faure 0	-	zzz	1963
+			4:00	-	AFT	# Alfred-Faure Time
+
 #
 # year-round base in the main continent
 # Dumont-d'Urville, Ile des Petrels, -6640+14001, since 1956-11
